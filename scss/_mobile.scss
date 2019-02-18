@@ -1,11 +1,17 @@
 // Wide screens
 @include mediaXl {
-
+    .projects {
+        //displaying 4 projects per row/fraction
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 
 // Desktop and Laptops
 @include mediaLg {
-
+    .projects {
+        //displaying 3 projects per row
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 // Tablets and small Laptops
@@ -57,11 +63,20 @@
 
         grid-template-columns: 1fr;
     }
+    .projects {
+        //displaying 2 projects per row
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 // Smartphones
 @include mediaSm{
     main#home h1 {
         margin-top: 10vh;
+    }
+
+    .projects {
+        //displaying 1 projects per row
+        grid-template-columns: 1fr;
     }
 }
