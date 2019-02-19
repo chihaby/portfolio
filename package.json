@@ -7,5 +7,9 @@
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "author": "Rad Chihaby",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gh": "^1.17.0",
+    "pages": "0.0.16"
+  }
 }
