@@ -10,6 +10,15 @@
   "license": "MIT",
   "dependencies": {
     "gh": "^1.17.0",
-    "pages": "0.0.16"
-  }
+    "pages": "0.0.16",
+    "node-sass": "4.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chihaby/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chihaby/portfolio/issues"
+  },
+  "homepage": "https://github.com/chihaby/portfolio#readme"
 }
