@@ -11,7 +11,7 @@
   "dependencies": {
     "gh": "^1.17.0",
     "pages": "0.0.16",
-    "node-sass": "4.5.0"
+    "node-sass": "4.13.1"
   },
   "repository": {
     "type": "git",
