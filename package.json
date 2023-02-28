@@ -9,7 +9,7 @@
   "author": "Rad Chihaby",
   "license": "MIT",
   "dependencies": {
-    "gh": "^1.17.0",
+    "gh": "^2.0.9",
     "pages": "0.0.16",
     "node-sass": "4.5.0"
   },
